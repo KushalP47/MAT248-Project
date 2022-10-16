@@ -11,4 +11,4 @@ Team members:
 
 (4) Zenil Sanghvi - AU2140215
 
-(5) Smmet Bhadaniya - AU2140234
+(5) Smeet Bhadaniya - AU2140234
