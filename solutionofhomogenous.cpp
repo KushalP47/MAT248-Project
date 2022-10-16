@@ -54,85 +54,10 @@ int main()
         x[i] = x[i] / a[i][i];
     }
 
-    int z = 0;
+    cout << "\nThe values of the variables are as follows:\n";
     for (i = 0; i < n; i++)
     {
-        int c = 0;
-        for (j = 0; j < n + 1; j++)
-        {
-            if (a[i][j] == 0)
-            {
-                c++;
-            }
-        }
-        if (c == n + 1)
-        {
-            z++;
-        }
-    }
-    int R = n - z;
-    // cout << "Rank = " << R << endl;
-
-    // for (float p = 0; p < n; p++)
-    // {
-    //     for (float q = n - 2; q < n; q++)
-    //     {
-    //         if (a[i][j] != 0 && a[i][j + 1] == 0)
-    //         {
-    //             cout << "NO SOLUTION POSSIBLE: " << endl;
-    //             break;
-    //         }
-    //     }
-    // }
-
-    int flag = 0;
-
-    if (R != n + 1)
-    {
-        for (i = 0; i < n; i++)
-        {
-            if (x[i] / x[i] != 1)
-            {
-                flag = 1;
-                break;
-            }
-            else
-            {
-                flag = 3;
-            }
-        }
-    }
-    else
-    {
-        for (i = 0; i < n; i++)
-        {
-            if (x[i] / x[i] != 1)
-            {
-                flag = 1;
-                break;
-            }
-            else
-            {
-                flag == 2;
-            }
-            // cout << x[i] << endl;
-        }
-    }
-    if (flag == 1)
-    {
-        cout << "NO SOLUTION POSSIBLE! " << endl;
-    }
-    else if (flag == 3)
-    {
-        cout << "INFINITE SOLUTION POSSIBLE!" << endl;
-    }
-    else if (flag == 2)
-    {
-        cout << "Following are the solutions: " << endl;
-        for (int i = 0; i < n; i++)
-        {
-            cout << x[i] << endl;
-        }
+        cout << x[i] << endl;
     }
     return 0;
 }
