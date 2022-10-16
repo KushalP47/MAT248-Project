@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
+#define n 2
 
-int norm(int a[][2])
+int norm(int a[][n])
 {
-    int row = 2, col = 2;
+    int row = n, col = n;
     int sum = 0;
     for (int i = 0; i < row; i++)
     {
@@ -20,11 +21,11 @@ int norm(int a[][2])
 
 int main()
 {
-    int row = 2, col = 2;
-    int arr[2][2];
-    for (int i = 0; i < 2; i++)
+    int row = n, col = n;
+    int arr[n][n];
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 2; j++)
+        for (int j = 0; j < n; j++)
         {
             cin >> arr[i][j];
         }
