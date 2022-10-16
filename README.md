@@ -8,13 +8,13 @@ The required screenshots are there in the word file.
 Team members:
 
 (1) Vandit Shah - AU2140017
-    Contributed-(Echelon Form, Q.no-F)
+    Contributed-(Echelon Form, Word File, Q.no-F)
 
 (2) Jeet Bhadaniya - AU2140033
     Contributed-(Inverse of Matrix, Q.no-A)
      
 (3) Kushal Patel - AU2140105
-    Contributed-(Represent Vector in Planes, Main File , Word File , Q.no-D & Assignment1)
+    Contributed-(Represent Vector in Planes, Main File , Q.no-D & Assignment1)
     
 (4) Zenil Sanghvi - AU2140215
     Contributed-(Solution of Linear Systems, Matrix Multiplications, Q.no-B & Q-C)
